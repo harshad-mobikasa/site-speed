@@ -1,9 +1,18 @@
-## Site Speed Setup
+# Head Core Integration
 
-Copy the code from `site-speed-html` file and paste it
-**at the very beginning of the `<head>` tag** in the HTML/layout file.
+This repository demonstrates how to include a shared **head-level snippet**
+at the very start of the `<head>` tag.
 
-⚠️ Important:
-- Place it immediately after `<head>`
-- Do not place it after CSS, JS, or third-party scripts
-- This setup is required for site speed optimization tasks
+The implementation shown here is for **demo purposes only**.
+You do NOT need to copy the entire `theme.liquid` file into your project.
+
+---
+
+## What You Need to Do
+
+Only two steps are required:
+
+1. Add the `head-core` file to your project
+2. Render / include it at the **start of the `<head>` tag**
+
+---
